@@ -72,6 +72,9 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+yarn.lock
+
+package-lock.json
 
 __tests__/
 .bundle/
@@ -80,3 +83,4 @@ ios/
 app.json
 App.tsx
 Gemfile
+Gemfile.lock
