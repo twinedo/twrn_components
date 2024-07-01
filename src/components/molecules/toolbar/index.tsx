@@ -1,16 +1,10 @@
 import React from 'react';
-import {
-  Pressable,
-  Text,
-  TouchableOpacity,
-  TouchableOpacityProps,
-  View,
-} from 'react-native';
+import {Text, View, ViewProps} from 'react-native';
 import {TToolbarProps} from './toolbar.type';
 import {styles} from './toolbar.style';
 import {TWColors, TWStyles} from 'twrn_styles';
 
-export default function Toolbar(props: TToolbarProps & TouchableOpacityProps) {
+export default function Toolbar(props: TToolbarProps & ViewProps) {
   const {
     containerStyle,
     text = 'Toolbar',
@@ -50,11 +44,7 @@ export default function Toolbar(props: TToolbarProps & TouchableOpacityProps) {
       )}
 
       <View
-        style={[
-          TWStyles.flex0p5,
-          TWStyles.alignEnd,
-          postfixContainerStyle,
-        ]}>
+        style={[TWStyles.flex0p5, TWStyles.alignEnd, postfixContainerStyle]}>
         {postfix}
       </View>
     </View>

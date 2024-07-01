@@ -1,4 +1,4 @@
 import {Button, Toolbar} from './molecules'
-import {Spacer} from './atoms';
+import {Card, Spacer} from './atoms';
 
-export {Button, Toolbar, Spacer};
+export {Button, Card, Toolbar, Spacer};
