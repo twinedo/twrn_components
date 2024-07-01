@@ -1,16 +1,19 @@
 import { StyleSheet } from "react-native";
+import { TWColors } from "twrn_styles";
 
 export const styles = StyleSheet.create({
     container: {
-      backgroundColor: 'red',
-      height: 40,
-      justifyContent: 'center',
-      alignItems: 'center'
+      backgroundColor: TWColors.RED,
     },
-    textWhite: {
-      color: 'white'
+    text: {
+      color: 'white',
+      fontWeight: '500',
+      fontSize: 20
     },
-    textDark: {
-      color: 'black'
+    prefixContainer: {
+      flex: 0.5
+    },
+    postfixContainer: {
+      flex: 0.5,
     }
   })
