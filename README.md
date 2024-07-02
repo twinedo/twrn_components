@@ -1,26 +1,28 @@
-Welcome to **TWRN!!**
-This is a Components for [**React Native**]
-You can try add common component in React Native here, with some additional props and style.
+Welcome to **TWRN!!**<br />
+Components for [**React Native**]<br />
+You can try common component in React Native here, with some additional props and style.<br />
 
 # Getting Started
-Please add this one before install:
-yarn:
-`yarn add twrn_styles`
-npm:
-`npm install twrn_styles`
+Please add this one before install:<br />
+yarn:<br />
+`yarn add twrn_styles`<br />
+npm:<br />
+`npm install twrn_styles`<br /><br />
 
-Then, install:
-yarn:
-`yarn add twrn_components`
-npm:
-`npm install twrn_components`
+Then, install:<br />
+yarn:<br />
+`yarn add twrn_components`<br />
+npm:<br />
+`npm install twrn_components`<br />
 
 # Example
 
-`import {Button} from 'twrn_components'`
-`import {TWStyles} from 'twrn_styles'`
+```
+import {Button} from 'twrn_components'
+import {TWStyles} from 'twrn_styles'
 
-`<Button containerStyle={[TWStyles.alignCenter, TWStyles.justifyCenter]}>Hit me</Button>`
+<Button containerStyle={[TWStyles.alignCenter, TWStyles.justifyCenter]}>Hit me</Button>
+```
 
 
 Terima kasih!
