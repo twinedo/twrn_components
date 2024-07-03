@@ -1,4 +1,5 @@
 import Card from "./card";
+import FloatingActionButton from "./fab";
 import Spacer from "./spacer";
 
-export {Card, Spacer}
+export {Card, FloatingActionButton,  Spacer}

@@ -1,5 +1,5 @@
-import { Button, Spacer, Toolbar } from "components";
+import { Button, Card, FloatingActionButton, Spacer, Toolbar } from "components";
 
 export {
-    Button, Spacer, Toolbar
+    Button, Card, FloatingActionButton, Spacer, Toolbar
 }
