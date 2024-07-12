@@ -6,10 +6,10 @@ module.exports = {
       extensions: ['.ios.js', '.android.js', '.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
         tests: ['./tests'],
-        '@assets': './src/assets',
-        '@components': './src/components',
-        '@styles': './src/styles',
-        '@utils': './src/utils',
+        'assets': './src/assets',
+        'components': './src/components',
+        'styles': './src/styles',
+        'utils': './src/utils',
       },
     }]
   ]
